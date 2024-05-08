@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class D25Print1ToNum {
+	public static void main(String[] args) 
+	{	
+		Scanner sc = new Scanner(System.in);
+		int i = 1;
+		System.out.print("숫자를 입력하세요. : ");
+		int num = sc.nextInt();
+		while (i < num+1){
+		System.out.printf("%5d", i);
+		i++;
+		}
+	}
+}

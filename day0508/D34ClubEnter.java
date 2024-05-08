@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class D34ClubEnter{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.print("키를 입력해주세요. : ");
+		String result = "입장 불가능";
+		if (sc.nextDouble()<= 170){
+			result = "입장 가능";
+		}
+		System.out.println(result);
+	}
+}

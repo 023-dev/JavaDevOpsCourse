@@ -1,0 +1,26 @@
+/*
+사용자한테 문자열을 입력받아
+그 문자열 안에 대문자 'A'는 모두 몇개 있는 지 확인하여
+출력하는 프로그램을 작성해봅시다.
+*/
+import java.util.Scanner;
+class CounterA{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		int len = str.length();
+		int i = 0;
+		int cnt = 0;
+		boolean flag = true;
+		while (flag){
+			if (str.charAt(i).equals('A')){
+				cnt = cnt + 1;
+			}
+			i = i + 1;
+			if (i == len){
+				flag = false;
+			}
+		}
+		System.out.printf("문자열 %s에서 A의 개수는 %d입니다.", str, cnt);
+	}
+}

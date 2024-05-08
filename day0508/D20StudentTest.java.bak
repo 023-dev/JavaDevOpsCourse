@@ -1,0 +1,21 @@
+/*
+학생의 이름, 국어, 영어, 수학을 입력받아
+총점과 평균을 각각 구하여 출력합니다.
+단, 평균은 소수점 1째자리 까지 출력합니다.
+*/
+import java.util.Scanner;
+class D20StudentTest{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.print("학생의 이름을 입력하세요.");
+		String name = sc.next();
+		System.out.print("국어 성적을 입력하세요.");
+		int kor = sc.nextInt();
+		System.out.print("영어 성적을 입력하세요.");
+		int eng = sc.nextInt();
+		System.out.print("수학 성적을 입력하세요.");
+		int mat = sc.nextInt();
+		System.out.printf("%s학생 성적의 총점은 %d점이고, 평균은 %.1f점입니다.", name, kor+eng+mat, kor+eng+mat/(double)3);
+		
+	}
+}

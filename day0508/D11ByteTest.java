@@ -1,0 +1,16 @@
+/*
+정수를 위한 자료형
+byte(8bit) : -2의 7승 ~ 2의 7승 - 1
+short(16bit) : -2의 15승 ~ 2의 15승 - 1
+int(32bit) : -2의 31승 ~ 2의 31승 - 1
+long(64bit) : -2의 3승 ~ 2의 63승 - 1
+overflow : Data type의 minimum, maximum을 초과할 때 쓰레기 값을 주는 현상.
+*/
+class D11ByteTest{
+	public static void main(String[] args){
+		byte b8;
+		b8 = 127;
+		b8 = (byte)(b8+1);
+		System.out.println(b8);
+	}
+}

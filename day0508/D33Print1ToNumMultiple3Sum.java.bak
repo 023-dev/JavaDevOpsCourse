@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class D27Print1ToNumMultiple3Sum{
+	public static void main(String[] args){	
+		Scanner sc = new Scanner(System.in);
+		int i = 0;
+		System.out.print("숫자를 입력하세요. : ");
+		int num = sc.nextInt();
+		int acc = 0;
+		while (i < num+1){
+			if (i%3==0){
+				acc += i;
+			}
+			i += 3;
+		}
+		System.out.println(acc);
+	}
+}

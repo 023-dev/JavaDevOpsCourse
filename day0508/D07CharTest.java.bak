@@ -1,0 +1,7 @@
+class D07CharTest{
+	public static void main(String[] args){
+		char like;
+		like = "x";
+		System.out.println(like);
+	}
+}

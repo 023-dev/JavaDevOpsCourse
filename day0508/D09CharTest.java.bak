@@ -1,0 +1,21 @@
+class D09CharTest 
+{
+	public static void main(String[] args) 
+	{
+		String str = "hello";
+		char c;
+		int i = 0, len = str.length();
+		/*for
+		for (int i=0;i<len;i++)
+		{
+			c = str.charAt(i);
+			System.out.println(c);
+		}
+		*/
+		while(i < len){
+			c = str.charAt(i);
+			System.out.println(c);
+			i++;
+		}
+	}
+}
