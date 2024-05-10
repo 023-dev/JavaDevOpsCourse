@@ -1,0 +1,36 @@
+하나이상의 클래스
+
+하나의 메인 메서드
+
+기본자료형
+char
+
+boolean
+
+byte
+short
+int
+long
+
+float
+double
+
+자바 연산자
+-+*&/*^%!===
+++
+--
+
+A && B (A false, B검사안함)
+A & B(A false, B도 검사함)
+
+자바 제어문은
+조건제어문
+- if
+- switch
+반복제어문
+- while
+- do~while
+- for
+jump 제어문으로 분류
+- break
+- continue

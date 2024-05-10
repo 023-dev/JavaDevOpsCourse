@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class D43WhileAndDowhileTest{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.print("숫자를 입력하세요. : ");
+		int n = sc.nextInt();
+		int i = 1;
+		/*
+		do{
+			System.out.println(i);	
+			i++;
+		}while(i <= n);
+		*/
+		while(i <= n){
+			System.out.println(i);	
+			i++;
+		}
+	}
+}
